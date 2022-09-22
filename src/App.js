@@ -1,4 +1,5 @@
 import { useState } from "react";
+import * as math from "mathjs";
 
 
 import Button from "./components/Button";
@@ -16,6 +17,12 @@ function App() {
   const resetInput = () => {
     setText("")
     setResult("")
+  }
+
+  const calculateResult = () => {
+    const input = text.join("") //removes commas
+
+    setResult(math.evaluate(input));
   }
 
   return (
@@ -47,7 +54,7 @@ function App() {
           <Button symbol="-" color="#F39222" handleClick={addToText} />
         </div>
         <div className="row">
-          <Button symbol="=" color="#F39222" />
+          <Button symbol="=" color="#F39222" handleClick={calculateResult}/>
         </div>
       </div>
     </div>
