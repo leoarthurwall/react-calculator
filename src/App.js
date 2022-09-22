@@ -11,7 +11,7 @@ function App() {
   const [result, setResult] = useState("");
 
   const addToText = (value) => {
-    setText((text) => [...text, value + " "])
+    setText((text) => [...text, value])
   }
   
   const resetInput = () => {
