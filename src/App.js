@@ -26,12 +26,14 @@ function App() {
           <Button symbol="+" color="#F39222" />
         </div>
         <div className="row">
-          <Button symbol="clear" className="clear" />
+          <Button symbol="clear" color="#CECECE" />
           <Button symbol="0" />
-          <Button symbol="." />
+          <Button symbol="." color="#CECECE" />
           <Button symbol="-" color="#F39222" />
         </div>
-        <Button symbol="=" color="#F39222" className="equals" />
+        <div className="row">
+          <Button symbol="=" color="#F39222" />
+        </div>
       </div>
     </div>
   );
