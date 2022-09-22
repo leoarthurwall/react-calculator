@@ -13,6 +13,10 @@ function App() {
     setText((text) => [...text, value + " "])
   }
   
+  const resetInput = () => {
+    setText("")
+    setResult("")
+  }
 
   return (
     <div className="App">
@@ -37,7 +41,7 @@ function App() {
           <Button symbol="+" color="#F39222" handleClick={addToText} />
         </div>
         <div className="row">
-          <Button symbol="C" color="#CECECC" />
+          <Button symbol="C" color="#CECECC" handleClick={resetInput}/>
           <Button symbol="0" handleClick={addToText} />
           <Button symbol="." color="#CECECC" handleClick={addToText} />
           <Button symbol="-" color="#F39222" handleClick={addToText} />
