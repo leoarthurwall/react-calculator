@@ -11,26 +11,27 @@ function App() {
           <Button symbol="7" />
           <Button symbol="8" />
           <Button symbol="9" />
-          <Button symbol="/" />
+          <Button symbol="/" color="#F39222" />
         </div>
         <div className="row">
           <Button symbol="4" />
           <Button symbol="5" />
           <Button symbol="6" />
-          <Button symbol="*" />
+          <Button symbol="*" color="#F39222" />
         </div>
         <div className="row">
           <Button symbol="1" />
           <Button symbol="2" />
           <Button symbol="3" />
-          <Button symbol="+" />
+          <Button symbol="+" color="#F39222" />
         </div>
         <div className="row">
+          <Button symbol="clear" className="clear" />
           <Button symbol="0" />
           <Button symbol="." />
-          <Button symbol="=" />
-          <Button symbol="-" />
+          <Button symbol="-" color="#F39222" />
         </div>
+        <Button symbol="=" color="#F39222" className="equals" />
       </div>
     </div>
   );
