@@ -1,5 +1,7 @@
 body {
-  background-image: linear-gradient(to right, #74687E, #9F93AA);
+  /* background-image: linear-gradient(to right, #74687E, #9F93AA); */
+  background-color: #CECECC;
+  ;
   font-family: sans-serif;
 }
 

@@ -26,9 +26,9 @@ function App() {
           <Button symbol="+" color="#F39222" />
         </div>
         <div className="row">
-          <Button symbol="C" color="#CECECE" />
+          <Button symbol="C" color="#CECECC" />
           <Button symbol="0" />
-          <Button symbol="." color="#CECECE" />
+          <Button symbol="." color="#CECECC" />
           <Button symbol="-" color="#F39222" />
         </div>
         <div className="row">
