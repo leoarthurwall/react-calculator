@@ -1,12 +1,23 @@
+import { useState } from "react";
+
+
 import Button from "./components/Button";
 import Input from "./components/Input";
 import "./index.css";
 
 function App() {
+  const [text, setText] = useState("");
+  const [result, setResult] = useState("");
+
+  const addToText = (value) => {
+    setText((text) => [...text, value + " "])
+  }
+  
+
   return (
     <div className="App">
       <div className="calc-wrapper">
-        <Input />
+        <Input text={text} result={result} />
         <div className="row">
           <Button symbol="7" />
           <Button symbol="8" />
