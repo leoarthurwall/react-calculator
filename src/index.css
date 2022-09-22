@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-image: linear-gradient(to right, #74687E, #9F93AA);
   font-family: sans-serif;
 }
 
@@ -7,10 +7,11 @@ body {
   display:flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .calc-wrapper{
-  background-color: white;
+  background-color: black;
   width: 400px;
   border-radius: 15px;
   padding: 10px;
