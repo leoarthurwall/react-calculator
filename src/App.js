@@ -20,27 +20,27 @@ function App() {
         <Input text={text} result={result} />
         <div className="row">
           <Button symbol="7" handleClick={addToText} />
-          <Button symbol="8" />
-          <Button symbol="9" />
-          <Button symbol="/" color="#F39222" />
+          <Button symbol="8" handleClick={addToText} />
+          <Button symbol="9" handleClick={addToText} />
+          <Button symbol="/" color="#F39222" handleClick={addToText} />
         </div>
         <div className="row">
-          <Button symbol="4" />
-          <Button symbol="5" />
-          <Button symbol="6" />
-          <Button symbol="*" color="#F39222" />
+          <Button symbol="4" handleClick={addToText} />
+          <Button symbol="5" handleClick={addToText} />
+          <Button symbol="6" handleClick={addToText} />
+          <Button symbol="*" color="#F39222" handleClick={addToText} />
         </div>
         <div className="row">
-          <Button symbol="1" />
-          <Button symbol="2" />
-          <Button symbol="3" />
-          <Button symbol="+" color="#F39222" />
+          <Button symbol="1" handleClick={addToText} />
+          <Button symbol="2" handleClick={addToText} />
+          <Button symbol="3" handleClick={addToText} />
+          <Button symbol="+" color="#F39222" handleClick={addToText} />
         </div>
         <div className="row">
           <Button symbol="C" color="#CECECC" />
-          <Button symbol="0" />
-          <Button symbol="." color="#CECECC" />
-          <Button symbol="-" color="#F39222" />
+          <Button symbol="0" handleClick={addToText} />
+          <Button symbol="." color="#CECECC" handleClick={addToText} />
+          <Button symbol="-" color="#F39222" handleClick={addToText} />
         </div>
         <div className="row">
           <Button symbol="=" color="#F39222" />
