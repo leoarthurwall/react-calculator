@@ -1,10 +1,12 @@
 import Button from "./components/Button";
+import Input from "./components/Input";
 import "./index.css";
 
 function App() {
   return (
     <div className="App">
       <div className="calc-wrapper">
+        <Input />
         <div className="row">
           <Button symbol="7" />
           <Button symbol="8" />
