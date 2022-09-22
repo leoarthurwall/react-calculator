@@ -1,1 +1,18 @@
+body {
+  background-color: black;
+}
 
+.App{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-wrapper{
+  background-color: white;
+  width: 400px;
+  border-radius: 15px;
+}
+.row{
+  display: flex;
+}
