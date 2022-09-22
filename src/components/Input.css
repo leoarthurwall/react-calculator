@@ -1,7 +1,6 @@
 .input-wrapper{
-    height: 10em;
+    height: 8em;
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
 
@@ -9,12 +8,18 @@
 }
 
 .result {
+    text-align: center;
     flex: 1;
-    font-size: 24px;
+    font-size: 44px;
+    font-weight: bold;
     color: white;
+    letter-spacing: 0.05em;
+
+
 }
 .text {
     flex: 1;
     font-size: 18px;
     color: white;
+    letter-spacing: 0.1em;
 }
